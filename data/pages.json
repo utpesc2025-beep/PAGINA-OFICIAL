@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "id": "inspectoría",
+      "title": "Inspectoría General",
+      "text": "La Inspectoría General de la Escuela Básica San Carlitos tiene como propósito contribuir al buen funcionamiento de nuestra comunidad educativa, promoviendo una convivencia basada en el respeto, la responsabilidad, el buen trato y el cumplimiento de las normas que nos permiten aprender y convivir en un ambiente seguro y acogedor.\n\nDesde Inspectoría General acompañamos a nuestros estudiantes en su trayectoria escolar, apoyando aspectos relacionados con la asistencia, puntualidad, convivencia, seguridad y vida escolar, trabajando de manera colaborativa con docentes, asistentes de la educación y familias.\n\nNuestro compromiso es fortalecer día a día una escuela donde cada integrante de la comunidad se sienta respetado, acompañado y parte de San Carlitos.",
+      "image": ""
+    },
+    {
+      "id": "academica",
+      "title": "UTP",
+      "text": "La Unidad Técnico-Pedagógica de la Escuela Básica San Carlitos tiene como propósito acompañar y fortalecer los procesos de enseñanza y aprendizaje, promoviendo una educación de calidad, inclusiva y centrada en el desarrollo integral de nuestros estudiantes.\n\nDesde UTP se coordinan y apoyan los procesos de planificación, evaluación, acompañamiento docente, desarrollo profesional y seguimiento de los aprendizajes, trabajando colaborativamente con docentes, asistentes de la educación, estudiantes y familias.\n\nNuestro compromiso es contribuir a una comunidad educativa que aprende, innova y mejora continuamente, generando oportunidades para que cada estudiante pueda desarrollar sus capacidades y alcanzar sus aprendizajes.\n\n“Trabajamos juntos para enseñar mejor y aprender más.”",
+      "image": ""
+    },
+    {
+      "id": "PIE",
+      "title": "Programa de Integración Escolar",
+      "text": "El Programa de Integración Escolar (PIE) de la Escuela Básica San Carlitos tiene como propósito favorecer la participación, el aprendizaje y la inclusión de todos nuestros estudiantes, reconociendo y valorando sus características, necesidades y potencialidades.\n\nNuestro equipo trabaja colaborativamente con docentes, estudiantes y familias, implementando estrategias de apoyo, acompañamiento y adecuaciones que permitan avanzar hacia una educación inclusiva y de calidad.\n\nCreemos que la diversidad enriquece nuestra comunidad educativa y que, mediante el trabajo conjunto, podemos generar más y mejores oportunidades de aprendizaje para todos y todas.\n\n“Una escuela inclusiva es aquella donde todos tienen la oportunidad de aprender, participar y sentirse parte.”",
+      "image": ""
+    },
+    {
+      "id": "convivencia",
+      "title": "Convivencia educativa",
+      "text": "La Convivencia Educativa de la Escuela Básica San Carlitos busca promover relaciones basadas en el respeto, el buen trato, la inclusión, la empatía y la participación, favoreciendo un ambiente seguro y acogedor para todos los integrantes de nuestra comunidad.\n\nTrabajamos junto a estudiantes, familias, docentes y asistentes de la educación en la prevención y abordaje de situaciones que puedan afectar la convivencia, fortaleciendo el diálogo, la resolución pacífica de conflictos y el desarrollo de habilidades socioemocionales.\n\nNuestro propósito es construir, entre todos, una comunidad donde cada persona sea valorada, escuchada y respetada, contribuyendo al bienestar y al aprendizaje de nuestros estudiantes.\n\n“Convivir también es aprender a cuidarnos, respetarnos y crecer juntos.”",
+      "image": "/assets/uploads/convivencia.jpeg"
+    },
+    {
+      "id": "padres",
+      "title": "Centro de Padres",
+      "text": "Espacio para incorporar información y actividades de la organización.",
+      "image": ""
+    },
+    {
+      "id": "estudiantes",
+      "title": "Centro de Estudiantes",
+      "text": "Espacio para incorporar iniciativas de participación estudiantil.",
+      "image": ""
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "school": {
+    "name": "Escuela Básica San Carlitos",
+    "motto": "Educando en saberes y valores",
+    "rbd": "4848-8",
+    "director": "Angela Patricia Vargas Aguayo",
+    "mission": "Somos una comunidad educativa, ocupada en el desarrollo integral de los niños, niñas y adolescentes, tanto en lo físico, psíquico y social; con especial énfasis en fomentar las habilidades que permitirán a nuestros estudiantes enfrentar la vida con éxito, conociendo y utilizando la tecnología con respeto hacia los demás y al medio ambiente, gracias a una planta docente con altas expectativas, trabajando de manera conjunta con asistentes, auxiliares, padres y apoderados comprometidos en la educación de sus hijos.",
+    "vision": "Llegar a ser reconocidos como la comunidad educativa líder en el sistema escolar chileno por su equipo de docentes, técnicos y asistentes comprometidos con el desarrollo integral del estudiante y el claro objetivo de descubrir y potenciar las habilidades para la vida de niños, niñas y adolescentes, el uso responsable de tecnologías, la convivencia pacífica, la cultura local y el cuidado del medio ambiente para las generaciones futuras.",
+    "history": "Fundada por Resolución Exenta N.º 4566 del 30 de mayo de 1956, la Escuela G-430 San Carlitos de Tomé nació para ofrecer una solución educativa a sectores rurales de difícil acceso.",
+    "hero_title": "Un lugar para aprender, crecer y descubrir talentos",
+    "hero_text": "Una comunidad educativa que acompaña a niñas, niños y adolescentes desde Educación Parvularia hasta 8.º básico.",
+    "hero_image": "/assets/img/instalaciones/frontis.webp",
+    "hero_button": "Conoce nuestra escuela",
+    "admissions_text": "Consulta directamente con nuestro establecimiento por los procesos y fechas de admisión y matrícula.",
+    "calendar_url": "",
+    "notice_enabled": false,
+    "notice_title": "",
+    "notice_text": "",
+    "notice_link": ""
+  },
+  "contact": {
+    "address": "Km. 177 camino a Rafael, Tomé, Región del Biobío",
+    "phone": "+56965089076",
+    "email": "sancarlitos.esc26@gmail.com",
+    "facebook": "https://www.facebook.com/escuelasancarlitostome/about?locale=es_LA",
+    "instagram": "https://www.instagram.com/escuela.sancarlitos",
+    "youtube": "https://www.youtube.com/@EscuelaSanCarlitosTom%C3%A9-g3k",
+    "hours": ""
+  }
+}

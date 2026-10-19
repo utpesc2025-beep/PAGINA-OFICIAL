@@ -1,0 +1,15 @@
+{
+  "news": [
+    {
+      "title": "Bienvenidos al sitio web de nuestra escuela",
+      "slug": "bienvenidos-al-sitio-web",
+      "date": "2026-09-13",
+      "category": "Comunidad",
+      "text": "La Escuela Básica San Carlitos presenta su nuevo sitio web institucional, un espacio destinado a informar y mantener conectada a nuestra comunidad educativa.",
+      "image": "/assets/uploads/ESCUELA.jpg",
+      "body": "Con mucha alegría queremos darles la bienvenida a la nueva página web oficial de nuestra Escuela Básica San Carlitos, un espacio creado para fortalecer la comunicación, participación y vínculo entre nuestra escuela, las familias y toda nuestra comunidad educativa.\n\nA través de este nuevo espacio podrán encontrar informaciones, noticias, actividades, comunicados, fotografías, documentos, proyectos y diferentes experiencias que forman parte de la vida de nuestra escuela.\n\nQueremos que esta página sea mucho más que un sitio informativo: buscamos que se transforme en una ventana hacia nuestra comunidad educativa, donde podamos compartir nuestros logros, aprendizajes, actividades y los momentos que construyen día a día la identidad de San Carlitos.\n\nAgradecemos especialmente a nuestras familias por la confianza, el compromiso y el acompañamiento permanente que brindan a nuestros estudiantes. La educación es una tarea que construimos juntos, y mantenernos comunicados es fundamental para seguir avanzando.\n\nLos invitamos a visitar regularmente nuestra página, conocer nuestras actividades y ser parte de este nuevo espacio de encuentro.\n\n¡Bienvenidos a la nueva página web de la Escuela Básica San Carlitos!\n\nCon cariño,\n\nEquipo Directivo y Comunidad Educativa\nEscuela Básica San Carlitos\nTomé, Chile",
+      "featured": true,
+      "published": true
+    }
+  ]
+}

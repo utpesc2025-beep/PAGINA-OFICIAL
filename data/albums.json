@@ -1,0 +1,124 @@
+{
+  "albums": [
+    {
+      "title": "Conoce nuestra escuela",
+      "date": "",
+      "category": "Infraestructura",
+      "description": "Fotografías reales de los espacios y accesos del establecimiento.",
+      "image": "/assets/img/instalaciones/frontis.webp",
+      "photos": [
+        {
+          "image": "/assets/img/instalaciones/frontis.webp",
+          "caption": "Frontis"
+        },
+        {
+          "image": "/assets/img/instalaciones/frontis-acceso.webp",
+          "caption": "Frontis acceso"
+        },
+        {
+          "image": "/assets/img/instalaciones/acceso.webp",
+          "caption": "Acceso"
+        },
+        {
+          "image": "/assets/img/instalaciones/segundo-piso.webp",
+          "caption": "Segundo piso"
+        },
+        {
+          "image": "/assets/img/instalaciones/hall-acceso.webp",
+          "caption": "Hall acceso"
+        },
+        {
+          "image": "/assets/img/instalaciones/hall.webp",
+          "caption": "Hall"
+        }
+      ],
+      "published": true
+    },
+    {
+      "title": "Educación parvularia",
+      "date": "",
+      "category": "Espacios educativos",
+      "description": "Salas y patios de educación parvularia.",
+      "image": "/assets/img/instalaciones/sala-kinder-1.webp",
+      "photos": [
+        {
+          "image": "/assets/img/instalaciones/sala-kinder-1.webp",
+          "caption": "Sala kinder 1"
+        },
+        {
+          "image": "/assets/img/instalaciones/sala-kinder-2.webp",
+          "caption": "Sala kinder 2"
+        },
+        {
+          "image": "/assets/img/instalaciones/patio-kinder.webp",
+          "caption": "Patio kinder"
+        },
+        {
+          "image": "/assets/img/instalaciones/patio-kinder-2.webp",
+          "caption": "Patio kinder 2"
+        }
+      ],
+      "published": true
+    },
+    {
+      "title": "Aulas y aprendizaje",
+      "date": "",
+      "category": "Espacios educativos",
+      "description": "Salas de clases, computación y dependencias.",
+      "image": "/assets/img/instalaciones/salas-1-ciclo.webp",
+      "photos": [
+        {
+          "image": "/assets/img/instalaciones/salas-1-ciclo.webp",
+          "caption": "Salas 1 ciclo"
+        },
+        {
+          "image": "/assets/img/instalaciones/computacion.webp",
+          "caption": "Computacion"
+        },
+        {
+          "image": "/assets/img/instalaciones/comedor.webp",
+          "caption": "Comedor"
+        },
+        {
+          "image": "/assets/img/instalaciones/sala-cegepa.webp",
+          "caption": "Sala cegepa"
+        },
+        {
+          "image": "/assets/img/instalaciones/convivencia.webp",
+          "caption": "Convivencia"
+        },
+        {
+          "image": "/assets/img/instalaciones/pasillo-1-piso.webp",
+          "caption": "Pasillo 1 piso"
+        }
+      ],
+      "published": true
+    },
+    {
+      "title": "Patios, deporte y huerto",
+      "date": "",
+      "category": "Espacios educativos",
+      "description": "Áreas exteriores, multicancha e invernadero.",
+      "image": "/assets/img/instalaciones/multicancha.webp",
+      "photos": [
+        {
+          "image": "/assets/img/instalaciones/multicancha.webp",
+          "caption": "Multicancha"
+        },
+        {
+          "image": "/assets/img/instalaciones/invernadero-1.webp",
+          "caption": "Invernadero 1"
+        },
+        {
+          "image": "/assets/img/instalaciones/invernadero-2.webp",
+          "caption": "Invernadero 2"
+        },
+        {
+          "image": "/assets/img/instalaciones/whatsapp-image-2026-09-21-at-13-16-48-19.webp",
+          "caption": "Vista de la escuela"
+        }
+      ],
+      "published": true
+    }
+  ]
+}

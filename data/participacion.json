@@ -1,0 +1,9 @@
+{
+  "encuestas": [
+    {
+      "titulo": "Encuesta de ejemplo (configurar enlace real)",
+      "url": "",
+      "publicada": false
+    }
+  ]
+}

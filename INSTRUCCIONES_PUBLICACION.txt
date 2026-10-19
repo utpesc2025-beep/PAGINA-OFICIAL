@@ -1,0 +1,12 @@
+ESCUELA SAN CARLITOS - PUBLICACION SIN CARPETAS ADICIONALES
+
+1. Descomprime este ZIP.
+2. En GitHub, sube los ARCHIVOS Y CARPETAS INTERIORES a la raiz del repositorio, no la carpeta que los contiene ni el ZIP.
+3. Confirma que index.html se vea directamente en la lista principal de GitHub.
+4. En Netlify: Base directory vacio, Build command vacio, Publish directory . (un punto).
+5. Verifica que el archivo netlify.toml tambien este en la raiz.
+6. Haz un nuevo deploy y comprueba el Deploy file browser: index.html debe aparecer directamente.
+7. En Netlify activa deteccion de Forms y configura notificaciones a utp.esc2025@gmail.com; prueba el envio.
+8. Si cambiaste el propietario o nombre del repositorio, actualiza admin/config.yml. La autenticacion CMS y el acceso a Drive requieren configuracion adicional.
+
+IMPORTANTE: no publiques datos personales de estudiantes ni credenciales. La integracion automatica con Google Drive no esta implementada.

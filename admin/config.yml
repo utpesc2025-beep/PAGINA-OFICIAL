@@ -1,0 +1,477 @@
+backend:
+  name: github
+  repo: utpesc2025-beep/escuelasancarlitos
+  branch: main
+  auth_methods:
+  - token
+locale: es
+media_folder: assets/uploads
+public_folder: /assets/uploads
+collections:
+- name: general
+  label: 🏫 Portada, escuela y redes
+  files:
+  - name: editar
+    label: Administrar 🏫 Portada, escuela y redes
+    file: data/general.json
+    format: json
+    fields:
+    - label: Información institucional
+      name: school
+      widget: object
+      fields:
+      - label: Nombre
+        name: name
+        widget: string
+      - label: Lema
+        name: motto
+        widget: string
+      - label: RBD
+        name: rbd
+        widget: string
+      - label: Equipo Directivo
+        name: director
+        widget: string
+      - label: Misión
+        name: mission
+        widget: text
+      - label: Visión
+        name: vision
+        widget: text
+      - label: Reseña histórica
+        name: history
+        widget: text
+      - label: Título portada
+        name: hero_title
+        widget: string
+      - label: Texto portada
+        name: hero_text
+        widget: text
+      - label: Imagen principal
+        name: hero_image
+        widget: image
+        required: false
+      - label: Texto botón portada
+        name: hero_button
+        widget: string
+      - label: Texto admisión
+        name: admissions_text
+        widget: text
+      - label: URL Google Calendar público
+        name: calendar_url
+        widget: string
+        required: false
+      - label: Mostrar aviso
+        name: notice_enabled
+        widget: boolean
+        required: false
+      - label: Título aviso
+        name: notice_title
+        widget: string
+        required: false
+      - label: Texto aviso
+        name: notice_text
+        widget: text
+        required: false
+      - label: Enlace aviso
+        name: notice_link
+        widget: string
+        required: false
+    - label: Contacto y redes sociales
+      name: contact
+      widget: object
+      fields:
+      - label: Dirección
+        name: address
+        widget: string
+        required: false
+      - label: Teléfono
+        name: phone
+        widget: string
+        required: false
+      - label: Correo
+        name: email
+        widget: string
+        required: false
+      - label: Facebook
+        name: facebook
+        widget: string
+        required: false
+      - label: Instagram
+        name: instagram
+        widget: string
+        required: false
+      - label: YouTube
+        name: youtube
+        widget: string
+        required: false
+      - label: Horario atención
+        name: hours
+        widget: string
+        required: false
+- name: team
+  label: 👥 Equipo directivo
+  files:
+  - name: editar
+    label: Administrar 👥 Equipo directivo
+    file: data/team.json
+    format: json
+    fields:
+    - label: Integrantes
+      name: team
+      widget: list
+      fields:
+      - label: Nombre
+        name: name
+        widget: string
+      - label: Cargo
+        name: role
+        widget: string
+      - label: Fotografía
+        name: image
+        widget: image
+        required: false
+      required: false
+- name: news
+  label: 📰 Noticias
+  files:
+  - name: editar
+    label: Administrar 📰 Noticias
+    file: data/news.json
+    format: json
+    fields:
+    - label: Noticias
+      name: news
+      widget: list
+      fields:
+      - label: Título
+        name: title
+        widget: string
+      - label: Identificador URL único (sin espacios)
+        name: slug
+        widget: string
+        required: false
+      - label: Fecha
+        name: date
+        widget: datetime
+        type: date
+        format: YYYY-MM-DD
+        required: false
+      - label: Categoría
+        name: category
+        widget: select
+        options:
+        - Académica
+        - Convivencia
+        - Talleres
+        - Comunidad
+        - PIE
+        - Extraescolar
+        - Admisión
+      - label: Resumen
+        name: text
+        widget: text
+      - label: Portada
+        name: image
+        widget: image
+        required: false
+      - label: Artículo completo
+        name: body
+        widget: markdown
+        required: false
+      - label: Destacar en portada
+        name: featured
+        widget: boolean
+        required: false
+      - label: Publicar
+        name: published
+        widget: boolean
+        required: false
+      required: false
+- name: workshops
+  label: 🎨 Talleres JEC
+  files:
+  - name: editar
+    label: Administrar 🎨 Talleres JEC
+    file: data/workshops.json
+    format: json
+    fields:
+    - label: Talleres
+      name: workshops
+      widget: list
+      fields:
+      - &id001
+        label: Título
+        name: title
+        widget: string
+      - &id002
+        label: Descripción
+        name: description
+        widget: text
+        required: false
+      - &id003
+        label: Fotografía portada
+        name: image
+        widget: image
+        required: false
+      - &id004
+        label: Fotografías adicionales
+        name: photos
+        widget: list
+        fields:
+        - label: Imagen
+          name: image
+          widget: image
+          required: false
+        - label: Pie de foto
+          name: caption
+          widget: string
+          required: false
+        required: false
+      - &id005
+        label: Video YouTube URL
+        name: video
+        widget: string
+        required: false
+      - &id006
+        label: Visible en web
+        name: published
+        widget: boolean
+        required: false
+      - label: Responsable
+        name: teacher
+        widget: string
+        required: false
+      - label: Cursos
+        name: courses
+        widget: string
+        required: false
+      - label: Días y horario
+        name: schedule
+        widget: string
+        required: false
+      - label: Objetivos y aprendizajes
+        name: objectives
+        widget: text
+        required: false
+      - label: Destacar en portada
+        name: featured
+        widget: boolean
+        required: false
+      required: false
+- name: activities
+  label: ⚽ Actividades extracurriculares
+  files:
+  - name: editar
+    label: Administrar ⚽ Actividades extracurriculares
+    file: data/activities.json
+    format: json
+    fields:
+    - label: Actividades
+      name: activities
+      widget: list
+      fields:
+      - *id001
+      - *id002
+      - *id003
+      - *id004
+      - *id005
+      - *id006
+      - label: Responsable
+        name: teacher
+        widget: string
+        required: false
+      - label: Fechas
+        name: schedule
+        widget: string
+        required: false
+      - label: Destacar en portada
+        name: featured
+        widget: boolean
+        required: false
+      required: false
+- name: albums
+  label: 📸 Álbumes fotográficos
+  files:
+  - name: editar
+    label: Administrar 📸 Álbumes fotográficos
+    file: data/albums.json
+    format: json
+    fields:
+    - label: Álbumes
+      name: albums
+      widget: list
+      fields:
+      - label: Título
+        name: title
+        widget: string
+      - label: Fecha
+        name: date
+        widget: datetime
+        type: date
+        format: YYYY-MM-DD
+        required: false
+      - label: Categoría
+        name: category
+        widget: string
+        required: false
+      - label: Descripción
+        name: description
+        widget: text
+        required: false
+      - label: Portada
+        name: image
+        widget: image
+        required: false
+      - label: Fotografías
+        name: photos
+        widget: list
+        fields:
+        - label: Imagen
+          name: image
+          widget: image
+          required: false
+        - label: Descripción
+          name: caption
+          widget: string
+          required: false
+        required: false
+      - label: Publicar
+        name: published
+        widget: boolean
+        required: false
+      required: false
+- name: videos
+  label: ▶️ Videos
+  files:
+  - name: editar
+    label: Administrar ▶️ Videos
+    file: data/videos.json
+    format: json
+    fields:
+    - label: Videos
+      name: videos
+      widget: list
+      fields:
+      - label: Título
+        name: title
+        widget: string
+      - label: Enlace YouTube
+        name: url
+        widget: string
+      - label: Descripción
+        name: description
+        widget: text
+        required: false
+      - label: Publicar
+        name: published
+        widget: boolean
+        required: false
+      required: false
+- name: events
+  label: 📅 Calendario
+  files:
+  - name: editar
+    label: Administrar 📅 Calendario
+    file: data/events.json
+    format: json
+    fields:
+    - label: Eventos
+      name: events
+      widget: list
+      fields:
+      - label: Título
+        name: title
+        widget: string
+      - label: Fecha
+        name: date
+        widget: datetime
+        type: date
+        format: YYYY-MM-DD
+        required: false
+      - label: Descripción
+        name: text
+        widget: text
+        required: false
+      - label: Lugar
+        name: place
+        widget: string
+        required: false
+      - label: Publicar
+        name: published
+        widget: boolean
+        required: false
+      required: false
+- name: documents
+  label: 📄 Documentos
+  files:
+  - name: editar
+    label: Administrar 📄 Documentos
+    file: data/documents.json
+    format: json
+    fields:
+    - label: Archivos
+      name: documents
+      widget: list
+      fields:
+      - label: Título
+        name: title
+        widget: string
+      - label: Categoría
+        name: type
+        widget: string
+      - label: Descripción
+        name: description
+        widget: text
+        required: false
+      - label: Archivo
+        name: file
+        widget: file
+        required: false
+      - label: Enlace alternativo
+        name: url
+        widget: string
+        required: false
+      required: false
+- name: pages
+  label: 🧩 Secciones institucionales
+  files:
+  - name: editar
+    label: Administrar 🧩 Secciones institucionales
+    file: data/pages.json
+    format: json
+    fields:
+    - label: Secciones
+      name: pages
+      widget: list
+      fields:
+      - label: Identificador
+        name: id
+        widget: string
+      - label: Título
+        name: title
+        widget: string
+      - label: Texto
+        name: text
+        widget: text
+      - label: Fotografía
+        name: image
+        widget: image
+        required: false
+      required: false
+
+- name: participacion
+  label: 📝 Encuestas externas
+  files:
+  - name: editar
+    label: Enlaces de Google Forms
+    file: data/participacion.json
+    format: json
+    fields:
+    - label: Encuestas
+      name: encuestas
+      widget: list
+      fields:
+      - {label: Título, name: titulo, widget: string}
+      - {label: URL pública de Google Forms, name: url, widget: string, required: false}
+      - {label: Publicada, name: publicada, widget: boolean, default: false}

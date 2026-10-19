@@ -1,0 +1,32 @@
+{
+  "documents": [
+    {
+      "title": "Proyecto Educativo Institucional 2025",
+      "type": "PEI",
+      "description": "Proyecto Educativo Institucional",
+      "file": "/documentos/ProyectoEducativo4848(1).pdf",
+      "url": ""
+    },
+    {
+      "title": "Reglamento Interno Escolar 2026",
+      "type": "Reglamento",
+      "description": "Convivencia educativa, buen trato y bienestar",
+      "file": "/documentos/REGLAMENTO INTERNO DE CONVIVENCIA EDUCATIVA.pdf",
+      "url": ""
+    },
+    {
+      "title": "Reglamento de Educación Parvularia",
+      "type": "Reglamento",
+      "description": "Reglamento interno del nivel parvulario",
+      "file": "/documentos/REGLAMENTO INTERNO DE EDUCACIÓN PARVULARIA.docx",
+      "url": ""
+    },
+    {
+      "title": "Reglamento de Evaluación y Promoción 2026",
+      "type": "Reglamento",
+      "description": "Evaluación y promoción escolar",
+      "file": "/documentos/regalmento evaluacion 2026 (1)(1).docx",
+      "url": ""
+    }
+  ]
+}
