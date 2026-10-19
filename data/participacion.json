@@ -1,9 +1,9 @@
 {
   "encuestas": [
     {
-      "titulo": "Encuesta de ejemplo (configurar enlace real)",
-      "url": "",
-      "publicada": false
+      "titulo": "Probando XFV",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdtnK34XcjZS_S2y0foSBm9JD7TXGiK4FYzy9kJ1Adul-Pxcw/viewform?usp=header",
+      "publicada": true
     }
   ]
 }
