@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: utpesc2025-beep/escuelasancarlitos
+  repo: utpesc2025-beep/PAGINA-OFICIAL
   branch: main
   auth_methods:
   - token
